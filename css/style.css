@@ -55,7 +55,7 @@
     position: fixed;
     z-index: 1000;
     left: 0;
-    width: 100vw;
+    width: 100%;
     /* height: auto; */
 }
 #header .header{
@@ -190,4 +190,24 @@
     text-align: center;
     /* box-shadow: 0px 0px 15px 1px orange; */
 
+}
+.accordion-button{
+    background-color: transparent !important;
+    background: transparent !important;
+    color: white;
+}
+.accordion-collapse{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+.accordion-body{
+    /* background-color: rgb(51, 51, 51); */
+    background-image: url(../css/IMG_20221009_154825.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    
+}
+input{
+    width: 16rem;
 }
