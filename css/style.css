@@ -7,7 +7,9 @@
 #page {
     
     background-image: url(./IMG_20221009_154825.jpg);
-    /* background-color: blue; */
+    background-size: cover;
+    background-position: center;
+     
     
 }
 
@@ -18,14 +20,7 @@
     border-radius: 10px;
     background-color: yellow;
     margin-top: 5px;
-    box-shadow: 0px 0px 15px 1px orange;
-    /* border: 2px solid crimson; */
-    /* font-size: 2rem; */
-    /* text-transform: uppercase; */
-    /* letter-spacing: .1rem; */
-    /* margin-top: 30px; */
-    /* transition: .3s ease; */
-    /* transition-property: background-color, color; */
+    box-shadow: 0px 0px 15px 4px orange;
 }
 .ctp{
     display: inline-block;
@@ -33,21 +28,16 @@
     color: black;
     border-radius: 10px;
     background-color: yellow;
-    margin-right: 2px;
-    box-shadow: 0px 0px 15px 1px orange;
-    /* font-size: smaller; */
-    
-   
+    margin-right: 5px;
+    box-shadow: 0px 0px 15px 4px orange;
     margin-top: 5px;
-    /* transition: .3s ease; */
-    /* transition-property: background-color, color; */
+   
 }
 .logo a{
     color: yellow;
     text-decoration: none;
 }
 .nav-list ul a{
-    /* color: yellow; */
     text-decoration: none;
 }
 
@@ -56,13 +46,12 @@
     z-index: 1000;
     left: 0;
     width: 100%;
-    /* height: auto; */
+   
 }
 #header .header{
     min-height: 8vh;
-    /* background-color: rgba(31, 30, 30, 0.24); */
     background-color: black;
-    /* transition: .3s ease background-color; */
+    
 }
 #header .nav-bar{
     display: flex;
@@ -77,7 +66,7 @@
     list-style: none;
     
     display: flex;
-    /* flex-direction: ; */
+   
     justify-content: center;
    
 }
@@ -96,15 +85,10 @@
     margin-top: 20px;
     box-shadow: 0px 0px 15px 1px orange;
     background-color: transparent;
-    /* filter: blur(4px); */
+   
     color: white;
     font-size: small;
-    /* font-weight: bold;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    justify-content: space-between !important; */
-    /* align-items: center !important; */
-    /* margin: 50px; */
+    
 }
 #page .pizza .card h1{
     border-radius: 10px;
@@ -188,27 +172,23 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* box-shadow: 0px 0px 15px 1px orange; */
+    cursor: pointer;
+   
 
 }
 .accordion-button{
     background-color: transparent !important;
-    background: transparent !important;
     color: white;
 }
-.accordion-collapse{
-    background: transparent !important;
-    background-color: transparent !important;
-}
+
 .accordion-body{
-    /* background-color: rgb(51, 51, 51); */
     background-image: url(../css/IMG_20221009_154825.jpg);
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    
 }
 input{
     width: 18rem;
+    height: 50px;
     
 }
